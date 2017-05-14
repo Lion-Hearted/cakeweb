@@ -1,0 +1,149 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-21 09:46:56
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-28 16:31:11
+*/
+
+/* 商品展示 */
+.middle{
+	width: 100%;
+	margin-top: 70px;
+	text-align: center;
+	background: #FAFBF9;
+}
+.middle .middle-center{
+	width: 980px;
+	margin: 0 auto;
+}
+.middle .middle-center .Pic{
+	width: 980px;
+	height: 340px;
+}
+.middle .middle-center .kindOf{
+	width: 980px;
+	height: 40px;
+}
+.middle .middle-center .kindOf a{
+	display: block;
+	width: 139px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	float: left;
+	color: #02720C;
+	border-right: 1px dashed gray;
+}
+.middle .middle-center .kindOf a:first-child{
+	border-left: none;
+}
+.middle .middle-center .kindOf a:hover{
+	background: #91B04C;
+	color: white;
+}
+.middle .middle-center .cakeShow{
+	width: 980px;
+}
+.middle .middle-center .cakeShow ul{
+	width: 980px;
+	list-style: none;
+}
+.middle .middle-center .cakeShow ul li{
+	width: 980px;
+	height: 200px;
+}
+.middle .middle-center .cakeShow ul li .cake-pic{
+	width: 230px;
+	height: 200px;
+	float: left;
+}
+.middle .middle-center .cakeShow ul li .name-mes{
+	width: 500px;
+	height: 200px;
+	text-align: left;
+	float: left;
+	position: relative;
+}
+.middle .middle-center .cakeShow ul li .name-mes .cake-title{
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	color: #02720C;
+}
+.middle .middle-center .cakeShow ul li .name-mes p{
+	font-size: 14px;
+	color: #99CC66;
+}
+.middle .middle-center .cakeShow ul li .name-mes .moreMes{
+	display: block;
+	width: 120px;
+	height: 30px;
+	background: #EAF2DB;
+	color: #99CC66;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.middle .middle-center .cakeShow ul li .name-mes .moreMes:hover{
+	color: white;
+	background: #02720C;
+}
+.middle .middle-center .cakeShow ul li .price-pan{
+	width: 250px;
+	height: 200px;
+	float: left;
+	position: relative;
+}
+.middle .middle-center .cakeShow ul li .price-pan .pp{
+	display: block;
+	width: 230px;
+	height: 30px;
+	color: #99CC66;
+	text-decoration: none;
+	line-height: 30px;
+	float: right;
+
+}
+.middle .middle-center .cakeShow ul li .price-pan .pp span{
+	color: red;
+}
+.middle .middle-center .cakeShow ul li .price-pan .pp:hover{
+	background: #FFFFFF;
+}
+.middle .middle-center .cakeShow ul li .price-pan .jcar{
+	display: block;
+	width: 230px;
+	height: 30px;
+	background: #EAF2DB;
+	color: #99CC66;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.middle .middle-center .cakeShow ul li .price-pan .jcar:hover{
+	color: white;
+	background: orange;
+}
+.pager a {
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

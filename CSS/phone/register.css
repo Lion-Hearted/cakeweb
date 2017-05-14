@@ -1,0 +1,91 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-28 15:35:37
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-05-11 15:57:32
+*/
+body{
+	background: #FAFBF9;
+}
+.clearfix{
+	clear: both;
+}
+.webTitle{
+	width: 80%;
+}
+.rec,
+.service,
+.aboutUs{
+	display: none;
+}
+header div ul li:nth-child(2){
+	display: none;
+}
+.mid{
+	width: 100%;
+	text-align: center;
+	margin-top: 100px;
+}
+.mid .loginPart{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	box-shadow: 10px 10px 10px gray;
+}
+.mid .loginPart .advPic{
+	display: none;
+	width: 600px;
+	height: 300px;
+	float: left;
+}
+.mid .loginPart .advPic img{
+	width: 600px;
+	height: 300px;
+}
+.mid .loginPart form{
+	width: 299px;
+	height: 300px;
+	border-left: 1px dashed gray;
+	position: relative;
+}
+.mid .loginPart form ul{
+	width: 280px;
+	height: 200px;
+	margin-top: 20px;
+	list-style: none;
+	float: left;
+}
+.mid .loginPart form ul li{
+	width: 280px;
+	height: 50px;
+}
+.mid .loginPart form ul li label{
+	width: 95px;
+	height: 50px;
+	float: left;
+	font-size:16px;
+	float: left;
+	text-align: right;
+}
+.mid .loginPart form ul li input{
+	width: 175px;
+	height: 20px;
+	float: right;
+}
+.mid .loginPart form>input{
+	width: 250px;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	font-weight: 900;
+	color: white;
+	line-height: 40px;
+	border-radius: 5px;
+	background: #C98FB5;
+	cursor: pointer;
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+}

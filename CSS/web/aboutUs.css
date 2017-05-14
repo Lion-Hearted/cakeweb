@@ -1,0 +1,43 @@
+/*
+* @Author: Administrator
+* @Date:   2017-05-12 15:03:54
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-05-12 16:42:32
+*/
+.middle{
+	width: 100%;
+	margin-top: 70px;
+	text-align: center;
+}
+.middle .mid-center{
+	width: 980px;
+	margin: 0 auto;
+}
+.middle .mid-center .facPic{
+	width: 980px;
+	position: relative;
+}
+.middle .mid-center .facPic img{
+	width: 980px;
+	height: 256px;
+	padding-top: 30px;
+	/* position: absolute;
+	top: 30px;
+	right: 0; */
+}
+
+.middle .mid-center .intro{
+	width: 980px;
+	padding-bottom: 30px;
+	text-align: left;
+	color: #91B04C;
+	font-size: 14px;
+	border-bottom: 1px dashed #91B04C
+}
+.middle .mid-center .thankFor{
+	width: 980px;
+	text-align: left;
+	color: #91B04C;
+	font-size: 14px;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,53 @@
+/*
+* @Author: Administrator
+* @Date:   2017-05-12 11:57:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-05-12 15:02:15
+*/
+.middle{
+	width: 100%;
+	margin-top: 70px;
+	text-align: center;
+}
+.middle .middle-center{
+	width: 980px;
+	margin: 0 auto;
+}
+.middle .middle-center .mid-top{
+	width: 980px;
+	height: 400px;
+	position: relative;
+	border-bottom: 1px dashed gray;
+}
+.middle .middle-center .mid-top img{
+	width: 980px;
+	height: 300px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+.middle .middle-center .mid-bottom{
+	width: 980px;
+	height: 600px;
+}
+.middle .middle-center .mid-bottom .orderSev{
+	width: 980px;
+	height: 250px;
+	text-align: left;
+	color: #91B04C;
+	border-bottom:1px solid #91B04C; 
+}
+.middle .middle-center .mid-bottom .orderSev p{
+	font-size: 24px;
+}
+.middle .middle-center .mid-bottom .orderSev span{
+	color:red;
+	font-weight: bold;
+}
+.middle .middle-center .mid-bottom .guige{
+	color: #91B04C;
+}
+.middle .middle-center .mid-bottom .guige p{
+	text-align:left;
+	font-weight: bold;
+}

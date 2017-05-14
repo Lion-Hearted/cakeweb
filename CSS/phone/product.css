@@ -1,0 +1,137 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-21 09:46:56
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-05-02 23:25:17
+*/
+
+/* 商品展示 */
+.middle{
+	width: 100%;
+	margin-top: 40px;
+	text-align: center;
+	background: #FAFBF9;
+}
+.middle .middle-center{
+	width: 100%;
+}
+.middle .middle-center .Pic{
+	display: none;
+
+}
+.middle .middle-center .kindOf{
+	width: 80px;
+	height: 100%;
+	position: fixed;
+	top: 40px;
+	left: 0;
+}
+.middle .middle-center .kindOf a{
+	display: block;
+	float:left;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	border-bottom: solid 1px #91B04C;
+	color: white;
+	text-decoration: none;
+	background: rgba(145,157,50, 0.5);
+}
+.middle .middle-center .kindOf a:last-child{
+	border-bottom: none;
+}
+.middle .middle-center .kindOf a:hover{
+	background: #91B04C;
+	color: white;
+}
+.middle .middle-center .cakeShow{
+	width: 80%;
+	float: right;
+}
+.middle .middle-center .cakeShow ul{
+	width:100%;
+	list-style: none;
+}
+.middle .middle-center .cakeShow ul li{
+	width: 100%;
+	height: 100px;
+}
+.middle .middle-center .cakeShow ul li .cake-pic{
+	width: 50%;
+	height: 100px;
+	float: left;
+}
+.middle .middle-center .cakeShow ul li .cake-pic img{
+	width: 100px;
+	height: 100px;
+}
+.middle .middle-center .cakeShow ul li .name-mes{
+	width: 50%;
+	height: 100px;
+	text-align: left;
+	float: left;
+	position: relative;
+}
+.middle .middle-center .cakeShow ul li .name-mes .cake-title{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: #02720C;
+}
+.middle .middle-center .cakeShow ul li .name-mes p{
+	width: 120px;
+	height: 18px;
+	font-size: 12px;
+	color: #99CC66;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.middle .middle-center .cakeShow ul li .name-mes .moreMes{
+	display: block;
+	width: 100px;
+	height: 20px;
+	background: #EAF2DB;
+	color: #99CC66;
+	text-decoration: none;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.middle .middle-center .cakeShow ul li .name-mes .moreMes:hover{
+	color: white;
+	background: #02720C;
+}
+.middle .middle-center .cakeShow ul li .price-pan{
+	display: none;
+	width: 30%;
+	height: 100px;
+	float: left;
+	position: relative;
+}
+.middle .middle-center .cakeShow ul li .price-pan .pp{
+	display: block;
+	width: 100px;
+	height: 30px;
+	color: #99CC66;
+	text-decoration: none;
+	line-height: 30px;
+	float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

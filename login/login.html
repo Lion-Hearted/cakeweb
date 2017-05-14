@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content = "width = device-width,initial-scale = 1.0">
+        <link rel="stylesheet" href="../CSS/web/login.css" media = "screen and (min-device-width: 900px)">
+        <link rel="stylesheet" href="../CSS/web/common.css" media = "screen and (min-device-width: 900px)">
+        <link rel="stylesheet" href="../CSS/pad/login.css" media = "screen and (min-device-width:640px) and (max-device-width: 900px)">
+        <link rel="stylesheet" href="../CSS/pad/common.css" media = "screen and (min-device-width:640px) and (max-device-width: 900px)">
+        <link rel="stylesheet" href="../CSS/phone/login.css" media = "screen and (max-device-width: 480px)">
+        <link rel="stylesheet" href="../CSS/phone/common.css" media = "screen and (max-device-width: 480px)">
+    </head>
+    <body>
+    	<header>
+    		<div>
+    			<ul>
+    				<li id = "webTitle">
+    					<a href="../index/index.html"><div class = "title">XCAKE</div></a>
+    				</li>
+    				<li><a href="../product/product.html">产品</a></li>
+    				<!-- <li class = 'rec'>推荐</li> -->
+                    <!-- <li class = "feel">体验</li> -->
+                    <li class = "service"><a href="../service/service.html">服务</a></li>
+                    <li class = "aboutUs"><a href="../aboutUs/aboutUs.html">品牌</a></li>
+    				<li id = "forlogin">
+    					<div class = "login"><a href="../login/login.html">登录</a></div>
+                        <div class = "register"><a href="../login/register.html">注册</a></div>
+    					<div class = "shopCar"><a href="../shopCar/shopCar.php">购物车</a></div>
+    				</li>
+    			</ul>
+    		</div>
+    	</header>
+    	<div class = "mid">
+    		<div class = "loginPart">
+    			<div class = "advPic">
+    				<img src="../IMG/login.jpg">
+    			</div>
+    			<form action="../login.php" method = "post">
+    				<ul>
+    					<li>
+    						<label>用户名：</label>
+    						<input type="text" name = "username">
+    					</li>
+    					<li>
+    						<label>密码：</label>
+    						<input type="password" name = "password">
+    					</li>
+    				</ul>
+    				<input type="submit" value = "现在登录！">
+    			</form>
+    			<div class = "clearfix"></div>
+    		</div>
+    	</div>
+    </body>
+</html>

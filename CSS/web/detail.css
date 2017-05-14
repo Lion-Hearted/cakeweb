@@ -1,0 +1,98 @@
+/*
+* @Author: Administrator
+* @Date:   2017-04-27 09:56:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-05-10 23:48:57
+*/
+.clearfix{
+	clear:both;
+}
+.middle{
+	width: 100%;
+	margin-top: 70px;
+	background: #FAFBF9;
+	text-align: center;
+}
+.middle .mid-center{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.middle .mid-center .bPic{
+	width: 700px;
+	float: left;
+
+}
+.middle .mid-center .bPic .cTitle{
+	width: 700px;
+	height: 50px;
+	text-align: left;
+}
+.middle .mid-center .bPic .cTitle span{
+	width: 700px;
+	height: 30px;
+	color: #02720C;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.middle .mid-center .bPic .cTitle p{
+	width: 700px;
+	height: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #94B681;
+}
+.middle .mid-center .bPic img{
+	width: 700px;
+	height: 480px;
+}
+.middle .mid-center .bPic .poem{
+	width: 700px;
+	height: 200px;
+	line-height: 50px;
+	font-size: 16px;
+	text-align: left;
+	text-indent: 5px;
+	color: #94B681;
+}
+.middle .mid-center .buyOr{
+	width: 280px;
+	height: 530px;
+	float: left;
+	position: relative;
+}
+.middle .mid-center .buyOr ul{
+	width: 260px;
+	list-style: none;
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+.middle .mid-center .buyOr ul li{
+	width: 260px;
+	height: 30px;
+	text-indent: 5px;
+	font-size: 14px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.middle .mid-center .buyOr ul li:hover{
+	background: #FFFFFF;
+}
+.middle .mid-center .buyOr ul li span{
+	color: red;
+}
+.middle .mid-center .buyOr a{
+	display: block;
+	width: 280px;
+	height: 30px;
+	color: white;
+	text-decoration: none;
+	line-height: 30px;
+	font-size: 16px;
+	background: #69BB00;
+	position: absolute;
+	border-radius: 10px;
+	bottom: 0;
+}

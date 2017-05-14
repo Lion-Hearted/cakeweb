@@ -1,0 +1,88 @@
+/*
+* @Author: Shaun
+* @Date:   2017-04-20 11:39:11
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-27 09:51:33
+*/
+
+
+/* 下发商品展览部分 */
+.mid-div{
+	width:100%;
+	height: 1525px;
+	text-align: center;
+}
+.mid-div .mid-center{
+	width: 980px;
+	height: 1525px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+/* 轮播图部分 */
+.mid-div .mid-center .focusPic{
+	width: 980px;
+	height: 450px;
+	background: #FAFBF9;
+	position: relative;
+}
+.mid-div .mid-center .focusPic ul{
+	width: 980px;
+	height: 390px;
+	overflow: hidden;
+	position: absolute;
+	top: 30px;
+	background: #936A4C;
+	border-bottom: 1px solid #EBE4D6;
+}
+.mid-div .mid-center .focusPic ul li{
+	width: 980px;
+	height: 390px;
+	float: left;
+}
+
+/* 16宫格 */
+.mid-div .mid-center .showCake .kindOf{
+	width: 980px;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 32px;
+	margin-right: 32px;
+}
+/* 分类 */
+.mid-div .mid-center .showCake .kindOf a{
+	display: block;
+	float:left;
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-left: solid 1px #91B04C;
+	color: #02720C;
+	text-decoration: none;
+}
+.mid-div .mid-center .showCake .kindOf a:first-child{
+	border-left:none;
+}
+.mid-div .mid-center .showCake .kindOf a:hover{
+	background: #91B04C;
+	color: white;
+}
+
+/* 16宫格展示 */
+.mid-div .mid-center .showCake .sixteen{
+	width: 980px;
+	height: 980px;
+}
+.mid-div .mid-center .showCake .sixteen >a{
+	display: block;
+	width: 245px;
+	height: 245px;
+	float: left;
+}
+.mid-div .mid-center .showCake .sixteen >a img{
+	width: 245px;
+	height: 245px;
+}
+
+

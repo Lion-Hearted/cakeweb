@@ -1,0 +1,89 @@
+/*
+* @Author: Administrator
+* @Date:   2017-05-08 10:32:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-05-09 23:42:48
+*/
+.middle{
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+}
+.middle .shop{
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+.middle .shop .buy{
+	width: 980px;
+	height: 200px;
+	/* border-top: 1px dashed gray; */
+	border-bottom: 1px dashed gray;
+}
+.middle .shop .buy .bPic{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+.middle .shop .buy .bPic img{
+	height: 200px;
+	width: 200px;
+}
+.middle .shop .buy .bMes{
+	width: 780px;
+	height: 200px;
+	float: right;
+}
+.middle .shop .buy .bMes .midMes{
+	width: 630px;
+	height: 200px;
+	float: left;
+}
+.middle .shop .buy .bMes .midMes .bName{
+	width: 630px;
+	height: 50px;
+	text-align: left;
+	text-indent: 10px;
+	line-height: 50px;
+	font-size: 24px;
+	color: green;
+}
+.middle .shop .buy .bMes .midMes .bPan{
+	width: 630px;
+	height: 30px;
+	text-align: left;
+	text-indent: 20px;
+	line-height: 30px;
+	font-size: 18px;
+	color: pink;
+}
+.middle .shop .buy .bMes .bPri{
+	width: 150px;
+	height: 200px;
+	line-height: 200px;
+	color: red;
+	float: right;
+}
+.middle .shop .forsure{
+	width: 980px;
+	height: 100px;
+	text-align: right;
+	line-height: 100px;
+	float: right;
+}
+.middle .shop .forsure span{
+	color: gray;
+	font-size: 16px;
+	font-weight: bold;
+}
+.middle .shop .forsure input{
+	width: 100px;
+	height: 50px;
+	font-size: 18px;
+	color: white;
+	outline: none;
+	border: none;
+	line-height: 50px;
+	background: red;
+	border-radius: 5px;
+}

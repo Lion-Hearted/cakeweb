@@ -1,0 +1,20 @@
+<div class = "middle" ng-controller = "mesController">
+	<div class = "mid-center">
+		<div class = "bPic">
+			<div class = "cTitle">
+				<span>{{mesCake.name}}</span>
+				<p>{{mesCake.introduce}}</p>
+			</div>
+			<img ng-src={{mesCake.detailUrl}}>
+			<div class = "poem">{{mesCake.detail}}</div>
+			<div class = "clearfix"></div>
+		</div>
+		<div class = "buyOr">
+			<ul>
+				<li ng-repeat = "pri in mesCake.kind" ng-click = "chossed(pri)"><span ng-show = "cho == pri.pang">√</span><label>{{pri.pang}}  线上订购:</label><span>{{pri.price}}</span></li>
+			</ul>
+			<a href="" ng-click = "sendMes()">加入购物车</a>
+		</div>
+		<div class = "clearfix"></div>
+	</div>
+</div>

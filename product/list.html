@@ -1,0 +1,18 @@
+<div class = "cakeShow" ng-controller = "listController">
+	<ul>
+		<li ng-repeat = "sk in nowCake">
+			<div class = "cake-pic">
+				<img ng-src="{{sk.url}}">
+			</div>
+			<div class = "name-mes">
+				<a href="" class = "cake-title">{{sk.name}}</a>
+				<p>{{sk.introduce}}</p>
+				<a href="../detail/detail.html#/{{sk.id}}" class = "moreMes">了解更多>></a>
+			</div>
+			<div class = "price-pan">
+				<a href="" class = "pp" ng-repeat = "pri in sk.kind" ng-click = "chossed(pri)"><span ng-show = "cho==pri.pang && k == pri">√</span><label>{{pri.pang}}  线上订购:</label><span>{{pri.price}}</span></a>
+				<a href="" class = "jcar" ng-click = "sendMes(sk)" name = "{{sk.id}}">加入购物车</a>
+			</div>
+		</li>
+	</ul>
+</div>
